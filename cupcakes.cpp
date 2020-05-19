@@ -9,7 +9,7 @@ int main()
     while(t--)
     {
         int N;
-        in>>N;
+        int>>N;
         x = (N/2)+1;
         cout<<x<<"\n";
     }
