@@ -1,15 +1,16 @@
 #include<iostream>
+using namespace std;
 
 int main()
 {
     int t;
-    std::cin>>t;
+    cin>>t;
     int x = 0;
     while(t--)
     {
         int N;
-        std::cin>>N;
+        in>>N;
         x = (N/2)+1;
-        std::cout<<x<<"\n";
+        cout<<x<<"\n";
     }
 }
