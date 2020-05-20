@@ -3,7 +3,7 @@
 int solveFactorial(int n)
 {
     int i,fact = 1;
-    if(n == 1)
+    if(n <= 1)
         return n;
     else
     { 
